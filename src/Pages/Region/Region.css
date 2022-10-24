@@ -1,0 +1,29 @@
+.region__wrapper {
+  padding: 2rem;
+}
+
+.region__wrapper p {
+  margin: 0.5rem 0;
+}
+
+.fish__container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.fish {
+  border: 1px solid black;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+  height: 30rem;
+  justify-content: space-between;
+  overflow: auto;
+  padding: 0.5rem;
+  width: 20rem;
+}
+
+.fish p {
+  margin: 2px 0;
+}

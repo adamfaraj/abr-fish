@@ -1,0 +1,21 @@
+ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  list-style-type: none;
+}
+
+.link {
+  transition: 0.125s all ease-in;
+}
+
+.link:hover {
+  color: darkcyan;
+  text-decoration: none;
+}
+
+a:-webkit-any-link {
+  text-decoration: none;
+}
